@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Twitter, Instagram } from 'lucide-react'
+import { Mail, Linkedin, X, Instagram } from 'lucide-react'
 import { useState } from 'react'
 
 export function Footer() {
@@ -95,7 +95,7 @@ export function Footer() {
               <Linkedin size={20} />
             </a>
             <a href="#twitter" className="text-gray-400 hover:text-uhuy-green transition-colors" aria-label="Twitter">
-              <Twitter size={20} />
+              <X size={20} />
             </a>
             <a href="#instagram" className="text-gray-400 hover:text-uhuy-green transition-colors" aria-label="Instagram">
               <Instagram size={20} />
