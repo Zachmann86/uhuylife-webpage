@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-uhuy-white text-uhuy-dark;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-uhuy-blue text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 inline-block;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-uhuy-blue text-uhuy-blue font-semibold rounded-lg hover:bg-blue-50 transition-colors duration-200 inline-block;
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-20 py-16 md:py-20;
+  }
+}
